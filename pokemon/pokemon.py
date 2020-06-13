@@ -65,12 +65,12 @@ class Pokemon:
             self.level_up()
 
 
-#method to level up pokemon if exp vaue reached to 2
+#method to level up pokemon if exp value reached to 2
     def level_up(self):
         self.exp = 0
         self.level += 1
         self.health +=self.health
-        print("{name} is leveled up by {level}, health now is {health}.".format(name=self.name, level=self.level, health=self.max_health))
+        print("{name} is leveled up by {level}, health now is {health}.".format(name=self.name, level=self.level, health=self.health))
         
   
 
